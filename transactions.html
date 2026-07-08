@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="transactions.html">Transactions</a>
+</nav>
+
+
+
+<div class="container">
+
+<h1>Add Transaction</h1>
+
+
+<label>Description</label>
+<input id="description" type="text">
+
+
+<label>Amount</label>
+<input id="amount" type="number">
+
+
+<label>Type</label>
+
+<select id="type">
+
+<option value="income">
+Income
+</option>
+
+<option value="expense">
+Expense
+</option>
+
+</select>
+
+
+<button onclick="addTransaction()">
+Add Transaction
+</button>
+
+
+
+<h2>History</h2>
+
+<ul id="list"></ul>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
