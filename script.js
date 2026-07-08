@@ -212,7 +212,3 @@ if(document.getElementById("balance")){
 
 showTransactions();
 
-}
-
-
-showTransactions();
